@@ -1,5 +1,9 @@
 # 今天也要学习呀
-## 对博客的理解
+
+## 每日一言
+<p id="hitokoto">正在加载一言...</p>
+
+### 对博客的理解
 喜欢写Blog的人，会经历三个阶段。
 >第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。
 
@@ -11,7 +15,7 @@
 
 通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化，它是私人的空间。
 
-## 关于本博客
+### 关于本博客
 到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。
 
 本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次。
