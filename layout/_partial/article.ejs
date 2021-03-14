@@ -90,15 +90,13 @@
        <% if(theme.article_txt){%><hr><span style="font-style: italic;color: gray;"> <%=theme.article_txt%> </span><%}%>
     </div>
 </article>
-
-<% if(theme.reward){%>
-<p>
-    <a  class="dashang" onclick="dashangToggle()"><%= __('donation.button') %></a>
-</p>
-<%}%>
 <%- partial('_partial/article_copyright')%>
+<% if(theme.reward){%>
+    <p>
+        <a  class="dashang" onclick="dashangToggle()"><%= __('donation.button') %></a>
+    </p>
+<%}%>
 <%- partial('_partial/comment', {post: post, index: index})%>
-
 <% if (theme.mathjax.on){ %>
     <% if (theme.mathjax.per_page){ %>
         <%- partial('mathjax') %>

@@ -42,12 +42,11 @@ category:
   num: true # 分类显示文章数
   sub: true # 开启多级分类
   sort:
-    - 读书
+    - iOS
+    - 安卓
+    - 前端
     - 工具
-    - 大前端
-    - 后端
-    - 数据库
-    - 运维
+    - 读书
   width:
     lg: 120 # 1468px<屏幕宽度 左侧分类宽度
     md: 135 # 1024px<屏幕宽度<=1468px 左侧分类宽度
@@ -84,7 +83,7 @@ menu:
       type: 3  # 跳转类型 3：打开新的tab页
 
 # 文末声明
-article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 1275685043@qq.com
+article_txt: # 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 1275685043@qq.com
 
 bottom_text: ©2021
 # 自定义页面最下方的站点版权信息
@@ -110,7 +109,7 @@ searchAll: true
 #   field: post
 
 
-copyright: false
+copyright: true
 # Copyright info. of post | 文末版权信息
 
 word_count: true
@@ -141,7 +140,7 @@ article_list:
 
 # 文章列表背景图
 article_bg_img:
-  on: true # 是否开启
+  on: false # 是否开启
   src: https://i.loli.net/2019/07/22/5d3521411f3f169375.png
   opacity: 0.3 # 背景图透明度，范围 0 ～ 1
 
@@ -181,7 +180,7 @@ code:
 
 highlight:
   on: true # true开启代码高亮，开启需要关闭博客 _config.yml 中的 highlight
-  lineNum: true # true显示行号
+  lineNum: false # true显示行号
   copy: true # 复制功能
   theme: atom-dark
 # 代码高亮主题,效果可以查看 https://highlightjs.org/static/demo/
